@@ -1,0 +1,29 @@
+{
+  "name": "animeflix-hianime",
+  "version": "3.0.0",
+  "type": "module",
+  "description": "HiAnime-style anime streaming app with season detection",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "node api/index.js",
+    "start": "node api/index.js",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "cheerio": "^1.1.2",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "anime",
+    "streaming",
+    "hianime",
+    "vercel"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
